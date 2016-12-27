@@ -4,7 +4,6 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import Styles from './Styles.js';
 import { View1Icon } from '../View1/View1.js';
 import { View2Icon } from '../View2/View2.js';
 
