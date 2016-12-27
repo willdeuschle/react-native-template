@@ -18,7 +18,6 @@ export default class TabBar extends React.Component {
     render() {
         return (
             <TabBarIOS
-                style={Styles.tabBar}
                 barTintColor='black'
                 unselectedTintColor='white'
                 tintColor='blue'
