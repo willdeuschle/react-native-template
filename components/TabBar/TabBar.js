@@ -5,14 +5,14 @@ import {
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import Styles from './Styles.js';
-import View1Icon from '../View2/View2.js';
-import View2Icon from '../View2/View2.js';
+import { View1Icon } from '../View1/View1.js';
+import { View2Icon } from '../View2/View2.js';
 
 export default class TabBar extends React.Component {
     constructor() {
         super();
         this.state = {
-            selectedTab: 'View1Icon';
+            selectedTab: View1Icon
         }
     }
 

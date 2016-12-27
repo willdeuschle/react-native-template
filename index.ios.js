@@ -6,20 +6,21 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
+    AppRegistry,
+    StyleSheet,
+    View,
+    StatusBar,
+    NavigatorIOS,
 } from 'react-native';
-import TabBar from './components/TabBar.js';
-import View1 from './component/View1.js';
-import View2 from './component/View2.js';
+import TabBar from './components/TabBar/TabBar.js';
+import View1 from './components/View1/View1.js';
+import View2 from './components/View2/View2.js';
 
 export default class ReactNativeTemplate extends Component {
     render() {
         return (
             <View style={{flex: 1}}>
-                <StatusBar barStyle={'light-content'}}/>
+                <StatusBar barStyle={'light-content'} />
                 <NavigatorIOS
                     initialRoute={{component: ReactNativeTemplateComponent, title: 'Back'}}
                     navigationBarHidden={true}
